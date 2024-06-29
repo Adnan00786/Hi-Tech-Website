@@ -1,16 +1,22 @@
 "use client";
 import React from 'react';
+import { useEffect } from 'react';
 import { FaShoppingCart, FaTools, FaWrench, FaDollarSign, FaShieldAlt, FaUsers } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { useDarkMode } from 'usehooks-ts'; // Assuming this is the correct import
 
 const About = () => {
-  const {isDarkMode } = useDarkMode(); // Initialize dark mode as true by default
+  const {isDarkMode,enable } = useDarkMode(); // Initialize dark mode as true by default
+
+  useEffect(() => {
+    enable(); // Set dark mode by default
+  }, [enable]);
 
   return (
     <>
       <section id='about'>
-        <div className={`min-h-screen ${isDarkMode ? 'bg-gradient-to-b from-yellow-400 to-yellow-1900 ' : 'bg-gradient-to-b from-yellow-400 to-gray-900'} p-8 flex flex-col items-center`}>
+        {/* <div className={`min-h-screen ${isDarkMode ? 'bg-gradient-to-b from-yellow-400 to-yellow-1900 ' : 'bg-gradient-to-b from-yellow-400 to-gray-1900'} p-8 flex flex-col items-center`}> */}
+        <div className={`min-h-screen bg-gradient-to-b from-yellow-400 to-gray-900  p-8 flex flex-col items-center`}>
           <motion.h1
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
