@@ -45,12 +45,13 @@ function Topbar() {
   };
 
   return (
-    <div className={`sticky top-0 z-50 p-2 ${isDarkMode ? 'bg-gradient-to-r from-yellow-300 to-orange-400 text-gray-100' : 'bg-gradient-to-r from-yellow-300 to-orange-300 text-gray-900'}`}>
+    <div className={`sticky top-0 z-50 p-2 ${isDarkMode ? 'bg-gradient-to-r from-yellow-300 to-orange-400 text-gray-100' : 'bg-gradient-to-r from-yellow-300 to-orange-400 text-gray-100'}`}>
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <span className="text-2xl md:text-3xl font-bold mb-2 md:mb-0">
           <span style={{ fontFamily: 'Arial black', color: 'black' }}>Hi-Tech</span>
           <span style={{ fontFamily: 'Arial black', color: 'red' }}> Copier Solutions</span>
           <span className={`text-xl text-red-600`}>, Digital Xerox Machines Sales & Services</span>
+          {/* <span className={`text-xl text-gray-600`}>, Digital Xerox Machines Sales & Services</span> */}
         </span>
         <div className={`flex space-x-2 md:space-x-4 text-2xl md:text-3xl ${isDarkMode ? 'text-black' : 'text-gray-900'} mb-2 md:mb-0`}>
           <a href="#!" className="text-xl md:text-2xl hover:text-blue-500" onClick={handlePhoneClick}>

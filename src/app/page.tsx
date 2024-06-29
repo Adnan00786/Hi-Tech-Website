@@ -1,9 +1,13 @@
 import Topbar from "@/components/Topbar";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <>
       <Topbar/>
+      <Navbar/>
+      <Hero/>
     </>
   );
 }
