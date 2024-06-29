@@ -31,7 +31,7 @@ const Brands = () => {
   };
 
   return (
-    <div className={`w-full min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-900 text-white'}`}>
+    <div className={`w-full min-h-screen ${isDarkMode ? 'bg-gradient-to-b from-gray-900 to-black text-white' : 'bg-gradient-to-b from-gray-900 to-gray-700 text-white'}`}>
       <div className="max-w-4xl mx-auto py-8 px-4">
         <br />
         <h2 className="text-5xl mb-8 text-center">Brands We Offer</h2>
