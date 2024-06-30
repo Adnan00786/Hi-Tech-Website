@@ -3,6 +3,7 @@ Version 1.0, [June 29, 2024]
 Definitions
 "Software" refers to all code, scripts, and associated files developed by Adnan for the Hi-Tech Sales and Services website.
 "User" refers to any individual or entity using or interacting with the Software.
+"Adnan" refers to Syed Adnan Ali, the owner and licensor of this Software.
 
 Grant of License
 Adnan grants the User a non-exclusive, non-transferable, limited license to use the Software for personal or non-commercial purposes subject to the terms and conditions set forth in this license agreement.
