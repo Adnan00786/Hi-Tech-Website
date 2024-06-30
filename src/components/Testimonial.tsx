@@ -106,7 +106,7 @@ const Testimonial: React.FC = () => {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-gray-900 to-gray-700">
+    <div className="w-full bg-gradient-to-b from-gray-900 to-gray-700">
       <section id="testimonials" className="py-16 text-white relative">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl sm:text-6xl font-bold text-center mb-12">
