@@ -38,7 +38,7 @@ const Rentals = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              It would be a smart decision to rent a copier from Hi-Tech Copier. Image is an innovative organisation which offers the rental of all sorts of IT and office equipment to organisations in Hyderabad, Secunderabad and to various cities across Andhra Pradesh and Telangana states. Image Business Machines is a reliable service that only offers well maintained photocopiers that feature the latest technology. So the next time you need to hire a photocopier for a short term or long term rent plan, look no further than Image Business Machines.
+              When it comes to renting office equipment in Hyderabad and across Andhra Pradesh and Telangana, Hi-Tech Copier Solutions is your go-to choice. We specialize in providing top-notch photocopiers, always well-maintained and equipped with the latest technology. Whether you need a photocopier for a short-term project or a long-term rental plan, you can count on us for reliability and quality. Partner with Hi-Tech Copier Solutions and experience the difference in office equipment rental.
             </motion.p>
             <motion.div 
               className="grid gap-6 md:grid-cols-2"
