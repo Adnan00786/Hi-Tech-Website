@@ -147,8 +147,9 @@ const Services = () => {
               />
             </motion.div>
           </motion.div>
+          {/*Commented Check start */}
           {/* Service 2: Periodic Service for Maintenance */}
-          <motion.div 
+          {/* <motion.div 
             className="flex flex-col md:flex-row items-center md:items-start"
             initial="hidden"
             whileInView="visible"
@@ -168,7 +169,8 @@ const Services = () => {
                 height={500}
               />
             </motion.div>
-          </motion.div>
+          </motion.div> */}
+          {/*Commented check end */}
           {/* Service 3: Warranty Service for Maintenance */}
           <motion.div 
             className="flex flex-col md:flex-row items-center md:items-start"
@@ -184,6 +186,28 @@ const Services = () => {
             <motion.div className="md:w-1/2" variants={imageVariant}>
               <Image
                 src="/assets/warantyservice.jpg"
+                alt="Warranty Service"
+                className="rounded-lg shadow-md w-full h-64 object-cover"
+                width={500}
+                height={500}
+              />
+            </motion.div>
+          </motion.div>
+          {/* Service 4: Periodic Service for Maintenance */}
+          <motion.div 
+            className="flex flex-col md:flex-row items-center md:items-start"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <motion.div className="md:w-1/2" variants={textVariant}>
+              <h3 className="text-3xl font-semibold mb-4 text-white">Periodic Service</h3>
+              <p className="text-lg text-white">Keep your Xerox machine running smoothly with our periodic maintenance service. We perform thorough checks and cleaning to ensure optimal performance.</p>
+            </motion.div>
+            <motion.div className="md:w-1/2" variants={imageVariant}>
+              <Image
+                src="/assets/periodicservice.jpg"
                 alt="Warranty Service"
                 className="rounded-lg shadow-md w-full h-64 object-cover"
                 width={500}
