@@ -1,4 +1,4 @@
-Version 1.0, [June 1, 2024]
+Version 1.0, [June 29, 2024]
 
 Definitions
 "Software" refers to all code, scripts, and associated files developed by Adnan for the Hi-Tech Sales and Services website.
