@@ -3,8 +3,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Brands from "@/components/Brand";
-// import Divider from "@/components/Divider";
+import Divider from "@/components/Divider";
 import { Products } from "@/components/Products";
+import Services from "@/components/Services";
+import Rentals from "@/components/Rentals";
 
 export default function Home() {
   return (
@@ -14,8 +16,10 @@ export default function Home() {
       <Hero/>
       <About/>
       <Brands/>
-      {/* <Divider/> */}
       <Products/>
+      <Divider/>
+      <Services/>
+      <Rentals/>
     </>
   );
 }
