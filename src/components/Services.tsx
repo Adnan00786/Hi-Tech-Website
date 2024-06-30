@@ -161,7 +161,7 @@ const Services = () => {
             </motion.div>
             <motion.div className="md:w-1/2" variants={imageVariant}>
               <Image
-                src="/assets/periodicservice.webp"
+                src="/assets/periodicservice.jpg"
                 alt="Periodic Service"
                 className="rounded-lg shadow-md w-full h-64 object-cover"
                 width={500}
