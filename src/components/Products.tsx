@@ -313,7 +313,7 @@ export function Products() {
                     </div>
                     <h3 className={`text-lg md:text-xl font-semibold ${isDarkMode ? "text-white" : "text-white"}`}>{product.title}</h3>
                     <p className={`mb-2 ${isDarkMode ? "text-gray-300" : "text-gray-300"}`}>{product.briefDescription}</p>
-                    <Button className={`font-semibold mb-2 focus:outline-none ${isDarkMode ? "text-blue-500" : "text-blue-500"}`} onClick={() => handleLearnMore(product)}>Learn More</Button>
+                    <Button className={`font-semibold mb-2 focus:outline-none ${isDarkMode ? "text-blue-500" : "text-blue-500"}`} onClick={() => handleLearnMore(product)}>More details</Button>
                   </div>
                 ))}
               </div>
