@@ -87,7 +87,7 @@ const Rentals = () => {
                 variants={cardVariants}
                 whileHover={{ scale: 1.05 }}
               >
-                <h3 className={`text-2xl mb-2 ${darkMode.isDarkMode ? 'text-white' : 'text-gray-800'}`}>Reasons for Opting Image Business Machines</h3>
+                <h3 className={`text-2xl mb-2 ${darkMode.isDarkMode ? 'text-white' : 'text-gray-800'}`}>Reasons for Opting Hi-Tech Copier Solutions</h3>
                 <ul className={`list-disc pl-5 ${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'}`}>
                   <li>Skilled technicians</li>
                   <li>Largest Inventory of Digital Copiers & Printers</li>
