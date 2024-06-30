@@ -1,0 +1,13 @@
+.testimonial-card {
+    width: 100%; /*Adjust width as needed*/
+    height: 100%; /*Adjust height as needed */
+    /* margin: 0 10px; /*Adjust horizontal margin as needed */
+  }
+  
+  .testimonial-content {
+    /* Adjust background, padding, and border radius styles here */
+    height: 310px;
+    /* width: 300px; */
+    margin: 5px;
+  }
+  

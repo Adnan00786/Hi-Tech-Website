@@ -7,6 +7,7 @@ import Divider from "@/components/Divider";
 import { Products } from "@/components/Products";
 import Services from "@/components/Services";
 import Rentals from "@/components/Rentals";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Divider/>
       <Services/>
       <Rentals/>
+      <Testimonial/>
     </>
   );
 }
