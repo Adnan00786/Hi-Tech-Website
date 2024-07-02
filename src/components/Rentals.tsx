@@ -77,7 +77,7 @@ const Rentals = () => {
                 <ul className={`list-disc pl-5 ${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'}`}>
                   <li>Express Service</li>
                   <li>Free Operator`s training</li>
-                  <li>Free Delivery in Hyderabad & Visakhapatnam</li>
+                  <li>Free Delivery in Hyderabad</li>
                   <li>High Speed Machines - 20 ppm to 70 ppm</li>
                   <li>Heavy Print Capacity - Upto 1 Lakh copies per day</li>
                 </ul>
@@ -106,7 +106,7 @@ const Rentals = () => {
                 <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'} mb-4`}>Please feel free to contact me if you need any further information.</p>
                 <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'} mb-2`}><strong>Mohammad Jaffar Ahmed</strong></p>
                 <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'} mb-2`}>Mobile: +91 9030731001 (10am to 8pm Monday to Saturday)</p>
-                <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'} mb-2`}>Email: example@gmail.com</p>
+                <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'} mb-2`}>Email:<a href="mailto:HITECHCOPIERSOLUTION1001@gmail.com" target="_blank"> HITECHCOPIERSOLUTION1001@gmail.com</a></p>
                 <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'} mb-4`}>Sunday & General holiday closed.</p>
                 <p className={`${darkMode.isDarkMode ? 'text-white' : 'text-gray-700'}`}>Thanking you and assuring you of our prompt and best services at all times.</p>
               </motion.div>
