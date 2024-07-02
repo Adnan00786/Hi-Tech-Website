@@ -66,7 +66,7 @@ const Navbar = () => {
       </nav>
 
       {isMenuOpen && (
-        <div className={`fixed top-0 right-0 h-full w-2/3 md:hidden ${isDarkMode ? 'bg-gray-100' : 'bg-gray-100'} shadow-lg z-50 transition-transform transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`fixed top-0 right-0 h-full w-2/3 md:hidden ${isDarkMode ? 'bg-gray-800' : 'bg-gray-800'} shadow-lg z-50 transition-transform transform ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <div className="p-4">
             <button
               className="text-2xl mb-4"
