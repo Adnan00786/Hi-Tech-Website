@@ -6,6 +6,7 @@ export const productsData = [
       {
         title: "Canon imageRUNNER ADVANCE 4225",
         image: "/assets/Canon IR ADV 4225.jpg",
+        // image: "/assets/Canon IR ADV 4225 4235 4245 4251.jpg",
         briefDescription: "Efficient multifunctional office device with high-quality prints and advanced scanning capabilities.",
         detailDescription: `The Canon imageRUNNER ADVANCE 4225 is a versatile multifunctional office device designed for efficient document reproduction. It offers high print quality with a resolution of up to 1200 x 1200 dpi. The device can handle up to 25 pages per minute (ppm) and supports various paper sizes and types. It features automatic duplex printing and scanning capabilities, including scan to email and network folders. With a standard paper capacity of 4,980 sheets, it is suitable for medium to large office environments.`,
       },
