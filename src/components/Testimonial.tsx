@@ -18,35 +18,43 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    name: "Imran Siddiqui",
-    role: "Manager at Creative Solutions LLC",
+    name: "Harish",
+    role: " ",
     feedback:
-      "Outstanding performance! Our new Xerox machine has significantly improved our office efficiency. Highly recommended!",
-    image: "/assets/imran.png",
-    rating: 4,
-  },
-  {
-    name: "Omar",
-    role: "CTO at Precision Print Services",
-    feedback:
-      "Our Xerox machine delivers top-quality prints reliably and quickly—an essential addition to our office.",
-    image: "/assets/omar.png",
+      " I'M USING THIS PRINTER SINCE 2 YEAR. MACHINE IS TOO GOOD AND I HAVE COMPLETED 9 LAKHS COPYS AND MACHINE IS TOO GOOD AND SMOOTH. THANKS HITECH COPIER",
+    image: "/assets/review_photos/harish.png",
     rating: 5,
   },
   {
-    name: "Tariq Javed",
-    role: "CEO at Smart Office Hub",
+    name: "Mohammed Zaffer Uddin",
+    role: "M.M Stationary",
     feedback:
-      "Fantastic product! The Xerox machine is incredibly efficient and has saved us a lot of time on our printing tasks.",
-    image: "/assets/tariq.png",
+      "I'm Zafar frome M.M Stationary just brand new condition 1st R.c Xerox Machine Brand new condition installed in my stationary super service and explanation is also good.",
+    image: "/assets/review_photos/Mohammed Zaffer Uddin.png",
     rating: 5,
   },
   {
-    name: "Hassan Mustafa",
-    role: "Lead Developer at Dynamic Printing Co.",
+    name: "BHAVANI vani",
+    role: " ",
     feedback:
-      "The Xerox machine we purchased has been a game-changer for our business. Excellent print quality and very user-friendly.",
-    image: "/assets/hassan.png",
+      "I'm using xerox machine since 5 year service is too good and very promt person thank you HITECH COPIER SOLUTION",
+    image: "/assets/review_photos/BHAVANI vani.png",
+    rating: 5,
+  },
+  {
+    name: "Shaik Ismail",
+    role: " ",
+    feedback:
+      "One stop for printers and its service...Good people with good nature. Very polite and humble. A must visit for any printers or copiers related queries and solutions",
+    image: "/assets/review_photos/Shaik Ismail.png",
+    rating: 5,
+  },
+  {
+    name: "Mahesh",
+    role: " ",
+    feedback:
+      "Hello friends i have purchase xerox wc 5855 digital xerox machine frome HITECH COPIER SOLUTION the machine is too good and service also prompt. i have completed 200000 lakhs copies",
+    image: "/assets/review_photos/Mahesh.png",
     rating: 5,
   },
 ];
