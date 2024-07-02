@@ -29,7 +29,7 @@ function Topbar() {
   };
 
   const handleEmailClick = () => {
-    openInNewTab('mailto:info@hitechcopier.com');
+    openInNewTab('mailto:Hitechcopiersolution1001@gmail.com');
   };
 
   const handleInstagramClick = () => {
