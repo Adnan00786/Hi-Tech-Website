@@ -190,10 +190,11 @@ const Footer = () => {
 
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
-
+  
   const handleLocationClick = () => {
-    const googleMapsUrl = "https://www.google.com/maps?q=Shop+No:+3,+1-766,+near+Bharat+petrol,+Tirmala+Arcade,+Nimboliadda,+Kachiguda,+Hyderabad,+Telangana+500027";
-    window.open(googleMapsUrl, '_blank', 'noopener,noreferrer');
+    const address = encodeURIComponent("Shop No: 3, 1-766, near Bharat petrol, Tirmala Arcade, Nimboliadda, Kachiguda, Hyderabad, Telangana 500027");
+    const googleMapsUrl = `https://maps.app.goo.gl/AaKHxodpF8mxhXKNA`;
+    window.open(googleMapsUrl);
   };
 
   return (
