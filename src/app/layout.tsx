@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hi Tech Copier Solutions",
-  description: "Canon Xerox Kyocera Sales Services Rentals in Hyderabad Cheap Prices",
+  description: "Hi Tech Copier Solutions offers top-quality Canon, Xerox, and Kyocera copier sales, services, and rentals in Hyderabad. Best prices guaranteed. Call us for the best copier solutions.",
 };
 
 export default function RootLayout({
