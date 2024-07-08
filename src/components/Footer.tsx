@@ -319,9 +319,13 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="mt-8 border-t border-gray-700 pt-4 text-center"
         >
-          <p className="text-sm">
+          {/* <p className="text-sm">
             &copy; {new Date().getFullYear()} Hi-Tech Copier. All rights reserved.
-          </p>
+          </p> */}
+          <p className="text-sm">
+  &copy; {new Date().getFullYear()} Hi-Tech Copier. All rights reserved. <br/> <br/>Developed by Adnan.
+</p>
+
         </motion.div>
       </div>
     </footer>
