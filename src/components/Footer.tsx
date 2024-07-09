@@ -168,10 +168,10 @@ const handleScrollTo = (id: string) => {
 
 const Footer = () => {
   const socialLinks = [
-    { icon: FaFacebookF, url: 'https://www.facebook.com' },
-    { icon: FaYoutube, url: 'https://www.youtube.com' },
-    { icon: FaXTwitter, url: 'https://twitter.com' },
-    { icon: FaInstagram, url: 'https://www.instagram.com' },
+    { icon: FaFacebookF, url: 'https://www.facebook.com/people/Xerox-Machines-sales-and-service/100063738321138' },
+    { icon: FaYoutube, url: 'https://www.youtube.com/@XeroxMachines786' },
+    { icon: FaXTwitter, url: 'https://x.com/hitechcopier' },
+    { icon: FaInstagram, url: 'https://www.instagram.com/hitechcopier' },
     { icon: FaLinkedinIn, url: 'https://www.linkedin.com' },
   ];
 
