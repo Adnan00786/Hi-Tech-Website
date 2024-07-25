@@ -26,20 +26,20 @@ const Hero = () => {
     setIsClient(true);
   }, []);
 
-  useEffect(() => {
-    let infoToastCount = 0;
+  // useEffect(() => {
+  //   let infoToastCount = 0;
 
-    const showInfoToast = () => {
-      if (infoToastCount < 4) {
-        toast.info('Call Now! and Get the Best Deals');
-        infoToastCount++;
-        setTimeout(showInfoToast, 4500); // 4.5 seconds interval
-      }
-    };
+  //   const showInfoToast = () => {
+  //     if (infoToastCount < 4) {
+  //       toast.info('Call Now! and Get the Best Deals');
+  //       infoToastCount++;
+  //       setTimeout(showInfoToast, 4500); // 4.5 seconds interval
+  //     }
+  //   };
 
-    // Start the info toast sequence
-    showInfoToast();
-  }, []);
+  //   // Start the info toast sequence
+  //   showInfoToast();
+  // }, []);
 
   const handleClick = () => {
     if (audio) {
